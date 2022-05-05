@@ -1,0 +1,32 @@
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: darkslategray;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid aliceblue;
+    text-shadow: 3px 3px 1px black;
+}
+
+h1, h2, h3, h4, p, li { 
+    color:aliceblue
+}
+h1, h2 {
+    text-align: center;
+}
+
+h3, h4, li, p {
+    text-align: justify;
+}
+p {
+    letter-spacing: 1px;
+}
+img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+}
