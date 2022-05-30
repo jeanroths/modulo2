@@ -15,7 +15,7 @@ app.get('/users', (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
 
   var db = new sqlite3.Database(DBPATH);
-var sql = 'SELECT * FROM tbUser ORDER BY title COLLATE NOCASE';
+  var sql = 'SELECT * FROM tbUser ORDER BY title COLLATE NOCASE';
   db.all(sql, [],  (err, rows ) => {
       if (err) {
           throw err;
