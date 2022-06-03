@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Exercício 3 - Resposta:</h1>
+        <form id="tel"> <!-- form pega os dados fornecidos peloi usuário e manda para a página HTML-->
+            <label for="telefone">Informe o DDD e o celular:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(XX)XXXXX-XXXX" max-lenght="14" pattern="\([0-9]{2}\)[0-9]{5}-[0-9]{4}$" required  ><br/> <!--pattern define como tem que estar exatamente o input do usuário como apresentado pelo placeholder e o campo é obrigatório-->
+            <input type="submit" value="Submit"> <!--input que fuciona como botão para submeter-->
+        </form>
+    <p id="resultado"></p>
+    </div>
+    
+</body>
+<script src="ex3.js"></script>
+</html>
+
