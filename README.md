@@ -1,7 +1,7 @@
 # Jean Rothstein
 Minhas entregas estão definidas aqui:
 ## Auto Estudo
-<a href="https://github.com/jeanroths/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%206/frontCV"> 01/06/2022 - Entrega 7 - Backend do currículo sem link com front e com CRUD</a>
+<a href="https://github.com/jeanroths/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%208/frontCV"> 08/06/2022 - Entrega 8 - integração do backend do currículo com o frontend</a>
 ## Obrigatórios
 <a href="https://github.com/jeanroths/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%207"> 03/06/2022 - Entrega 7 - Exercícios de JS </a>
 <br>
