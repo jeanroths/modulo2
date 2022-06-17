@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício 1</title>
+
+</head>
+<body>
+    <div id ="main">
+    <h1>Exercício 1</h1>
+    <h3>Insira um número de 3 dígitos e pressione "Calcular" para que seja revelado se o valor da centena é ímpar ou par:</h3>
+    <br>
+    <h1>Resposta:</h1>
+<div id="valor">
+    <!-- div com o campo de entrada do usuário com restrição para que ele possa colocar apenas 3 dígitos, e com o botão que envia a função contida no script -->
+    <input type="text" id="numero" pattern="^[1-9]{0,3}$" maxlength="3" placeholder="insira um valor de 3 dígitos">
+    <button onclick="Calc()">Calcular</button>
+</div>
+</div>
+</body>
+<script src="ex1.js"></script>
+</html>
